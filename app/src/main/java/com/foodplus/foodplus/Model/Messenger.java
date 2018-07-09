@@ -1,14 +1,13 @@
 package com.foodplus.foodplus.Model;
 
-public class DeliveryGuy {
+public class Messenger {
 
     private String name;
     private String email;
     private int contacts;
 
-    private String trainer;
 
-    public DeliveryGuy(String name, String email, int contacts) {
+    public Messenger(String name, String email, int contacts) {
         this.name = name;
         this.email = email;
         this.contacts = contacts;

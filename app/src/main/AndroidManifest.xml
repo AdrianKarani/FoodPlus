@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddDeliveryGuyActivity"></activity>
+        <activity android:name=".AddMessengerActivity"
+            android:label="@string/add_messenger"/>
+        <activity android:name=".AddProductActivity"
+            android:label="@string/add_product" />
     </application>
 
 </manifest>
